@@ -1,0 +1,98 @@
+  body{
+        background-size: cover;
+        background-image: url(https://wallpaperaccess.com/full/2849674.jpg);
+        margin:0;
+        padding:0;
+ }
+
+
+.topRegion{
+    width: 100%;
+    height: 60px;
+    
+}
+
+.topRegion h3{
+    text-align: right;
+    padding: 15px 30px 0px 0px;
+}
+
+.content{
+    width:100%;
+}
+
+.nameRegion{
+    width: 100%;
+    height: 60px;
+}
+
+.nameRegion h1{
+
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 50px;
+}
+
+.showList{
+    width: 100%;
+    height: 60px;
+}
+
+.showList ul li{
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.active{
+    color:red !important;
+}
+.animalsList table{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.animalImage{
+    width:200px;
+    height:275px;
+}
+
+.details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    background-color: #4cd9a9;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    display: none;
+}
+  
+.details-close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.animal_detail h4{
+    padding: 2px;
+    margin: 5px 2px 0px 25px;
+    text-align: left;
+    float: left;
+    width: 45%;
+}
